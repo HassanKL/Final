@@ -1,0 +1,13 @@
+.browseContainer {
+  width: 1500px;
+  height: 780px;
+  /* background-image: url(../images/recipe-hero.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.browseContainer .overlayy {
+  width: 1500px;
+  height: 780px;
+  background: rgba(167, 232, 189, 0.3);
+}

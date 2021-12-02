@@ -1,0 +1,41 @@
+.yourContainer {
+  P {
+    font-size: 17px;
+  }
+  // background-color: green;
+  height: 350px;
+  width: 800px;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: flex;
+  margin-bottom: 100px;
+  .lefty {
+    img {
+      height: 350px;
+      width: 350px;
+    }
+  }
+  .righty {
+    margin-left: 30px;
+    p {
+      padding-top: 23px;
+    }
+  }
+}
+
+.instructions {
+  margin-left: 100px;
+  margin-top: 100px;
+  .nextContainer {
+    .submit {
+    }
+    .ID {
+      background-color: #ffd972;
+      height: 44px;
+      width: 187px;
+      border-radius: 30px;
+      margin-top: 30px;
+      margin-right: 10px;
+    }
+  }
+}

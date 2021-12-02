@@ -1,0 +1,118 @@
+.browseContainer {
+  width: 1500px;
+  height: 970px;
+  background-image: url(../images/recipe-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .overlayy {
+    width: 1500px;
+    height: 970px;
+    background: rgba(167, 232, 189, 0.5);
+    h3 {
+      padding: 100px;
+    }
+    .line1 {
+      padding-left: 60px;
+      height: 300px;
+      // background-color: green;
+      display: flex;
+      .pic {
+        img {
+          height: 300px;
+          width: 400px;
+          border-radius: 30px;
+        }
+      }
+
+      .image-holder {
+        background-image: url(../images/recipe-pizza.jpg);
+        height: 300px;
+        width: 400px;
+        border-radius: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        .button {
+          background-color: #ffd972;
+          border-radius: 35px;
+          width: 128px;
+          height: 42px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          //   margin-left: 10px;
+          justify-content: center;
+        }
+        .view {
+          //   display: none;
+        }
+      }
+      .button-holder {
+        display: flex;
+        // justify-content: space-evenly;
+        padding-top: 15px;
+        padding: 10px;
+        // background-color: green;
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        .button {
+          background-color: #ffd972;
+          border-radius: 35px;
+          width: 128px;
+          height: 42px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 40px;
+        }
+        .view {
+          //   display: none;
+        }
+      }
+
+      .button-holder:hover .view {
+        display: flex;
+      }
+    }
+
+    .desc {
+      background-color: white;
+      height: 300px;
+      width: 250px;
+      border-radius: 30px;
+      padding: 15px;
+      .title {
+        text-align: center;
+        padding: 5px;
+        border-bottom: 3px solid black;
+      }
+      .sma {
+        padding: 5px;
+      }
+      .pack {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        .pict {
+          display: flex;
+          img {
+            padding: 5px;
+            width: 80px;
+            height: 34px;
+          }
+        }
+      }
+    }
+  }
+}

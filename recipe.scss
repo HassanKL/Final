@@ -1,0 +1,29 @@
+.recipeContainer {
+  width: 1500px;
+  height: 970px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  //   display: flex;
+  .boxing {
+    h3 {
+      margin-left: 20px;
+    }
+    margin-left: 200px;
+    margin-top: 100px;
+    // background-color: yellow;
+    height: 950px;
+    .long {
+      padding: 20px;
+    }
+    .ID {
+      background-color: #ffd972;
+      height: 44px;
+      width: 187px;
+      border-radius: 30px;
+      margin-top: 30px;
+      margin-right: 10px;
+    }
+  }
+}

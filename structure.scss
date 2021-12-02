@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serifs;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+form {
+  // margin: 50px;
+}
+
+.tp {
+  display: block;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: white;
+  width: 1000px;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #ffd972;
+}
+
+.homeContainer {
+  width: 1500px;
+  height: 780px;
+  background-image: url(../images/hero1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .overlay {
+    width: 1500px;
+    height: 780px;
+    background: rgba(242, 92, 84, 0.3);
+  }
+}
+
+.browseContainer {
+  width: 1500px;
+  height: 780px;
+  background-image: url(../images/recipe-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .overlayy {
+    width: 1500px;
+    height: 780px;
+    background: rgba(167, 232, 189, 0.3);
+  }
+}

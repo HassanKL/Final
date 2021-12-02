@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  padding: 15px;
+  font-size: 20px;
+
+  .left {
+  }
+  .middle {
+  }
+  .right {
+    display: flex;
+    margin: auto 0;
+    .logo1 {
+      img {
+        height: 40px;
+        width: 40px;
+      }
+    }
+    .logo2 {
+      img {
+        height: 60px;
+        width: 60px;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.browseContainer {
+  width: 1500px;
+  height: 970px;
+  background-image: url(../images/recipe-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.browseContainer .overlayy {
+  width: 1500px;
+  height: 970px;
+  background: rgba(167, 232, 189, 0.3);
+}
+.browseContainer .overlayy .case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.browseContainer .overlayy .case .ring {
+  margin-top: 50px;
+  height: 270px;
+  width: 100%;
+}
+.browseContainer .overlayy .case .ring .line1 {
+  padding-left: 60px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.browseContainer .overlayy .case .ring .line1 .pic {
+  background-image: url(../images/recipe-pizza.jpg);
+}
+.browseContainer .overlayy .case .ring .line1 .pic img {
+  height: 300px;
+  width: 400px;
+  border-radius: 30px;
+}
+.browseContainer .overlayy .case .ring .line1 .desc {
+  background-color: white;
+  height: 300px;
+  width: 250px;
+  border-radius: 30px;
+  padding: 15px;
+}
+.browseContainer .overlayy .case .ring .line1 .desc .title {
+  text-align: center;
+  padding: 5px;
+  border-bottom: 3px solid black;
+}
+.browseContainer .overlayy .case .ring .line1 .desc .sma {
+  padding: 5px;
+}
+.browseContainer .overlayy .case .ring .line1 .desc .pack {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.browseContainer .overlayy .case .ring .line1 .desc .pack .pict {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.browseContainer .overlayy .case .ring .line1 .desc .pack .pict img {
+  padding: 5px;
+  width: 80px;
+  height: 34px;
+}
